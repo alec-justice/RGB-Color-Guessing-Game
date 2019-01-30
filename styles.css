@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+.square {
+    width: 30%;
+    background: lightblue;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    font-size: inherit;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: inherit;
+    font-family: sans-serif;
+}
