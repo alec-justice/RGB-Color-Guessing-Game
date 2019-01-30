@@ -10,6 +10,7 @@ var colorDisplay = document.getElementById("colorDisplay");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var scoreDisplay = document.querySelector("#score");
+var submitUsername = document.querySelector(".submit");
 var score = 0;
 
 startGame();
@@ -36,6 +37,7 @@ for(var i = 0; i < squares.length; i++){
            h1.style.backgroundColor = clickedColor;
            score++;
            scoreDisplay.textContent = score;
+           submitUsername();
            startGame();
        } else {
            this.style.backgroundColor = "black";
@@ -74,3 +76,7 @@ function startGame(){
     colors = generateRandomColors(6);
     pickedColor = pickColor();
 }
+
+// funtion submitUsername(){
+    
+// };

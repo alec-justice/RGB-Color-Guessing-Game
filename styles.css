@@ -45,3 +45,21 @@ button {
     font-size: inherit;
     font-family: sans-serif;
 }
+
+form {
+    text-align: center;
+    position: fixed;
+    color: lightblue;
+    text-transform: uppercase;
+    width: 20%;
+    border: 1px solid blue;
+    margin-top: 22%;
+    margin-left: 40%;
+    
+}
+
+.submit {
+    border: 1px solid blue;
+    color: lightblue;
+    margin-top: 20px;
+}
