@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>RGB COLOR GUESSING GAME</title>
+</head>
+<body>
+<h1><span id="colorDisplay">RGB</span><br>COLOR GUESSING GAME</h1>    
+   
+    <div id="stripe">
+        <button id="reset">start new game</button>
+       <span id="score"></span>
+   </div>
+    <div id="container">
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+   </div> 
+
+   <form method="GET">
+    <h4>Please enter your username:</h4>
+    <input type="text" username="username" placeholder="Your Username"><br>
+    <button class="submit" type="submit" onclick="submitScore()">Submit</button>
+   </form>
+
+
+
+
+<script src="index.js"></script></body>
+</html>
